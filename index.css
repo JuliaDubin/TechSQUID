@@ -323,7 +323,6 @@ footer h3 {
     font-weight: bold;
     font-size: 30px;
     text-align: center;
-    margin: 1.5rem 0;
 }
 
 .programs {
@@ -331,7 +330,6 @@ footer h3 {
     justify-content: space-evenly;
     width: 100%;
     flex-wrap: wrap;
-    margin-bottom: 1rem;
 }
 
 .program-GWC img {
