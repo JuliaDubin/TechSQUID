@@ -7,6 +7,7 @@
 }
 
 :root {
+    color-scheme: light;
     --gray-black: #363636;
     --orange-main: #FF815E;
     --apex-color: #0B7676;
