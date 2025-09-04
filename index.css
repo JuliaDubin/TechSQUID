@@ -321,7 +321,7 @@ footer h3 {
     color: var(--ink-blue);
     font-family: Roboto, sans-serif;
     font-weight: bold;
-    font-size: clamp(30px, 5vw, 50px);
+    font-size: clamp(30px, 5vw, 40px);
     text-align: center;
     margin: 1.5rem 0;
 }
