@@ -92,7 +92,7 @@ nav > div {
 .nav-links {
     display: none;
     position: absolute;     /* so it doesn't push layout */
-    top: 72px;              /* just below nav; adjust to your header height */
+    top: 80px;              /* just below nav; adjust to your header height */
     right: 16px;
     list-style: none;
     margin: 0;
@@ -292,7 +292,7 @@ footer h3 {
 .options {
     display: flex;
     justify-content: space-evenly;
-    height: auto;
+    height: 600px;
     align-items: center;
     flex-direction: column;
     background-color:white;
@@ -321,7 +321,7 @@ footer h3 {
     color: var(--ink-blue);
     font-family: Roboto, sans-serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: clamp(30px, 5vw, 40px);
     text-align: center;
 }
 
