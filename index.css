@@ -331,10 +331,10 @@ footer h3 {
 }
 
 .program-GWC img {
-    max-width: 100%;   /* relative to parent width */
-    max-height: 100%;  /* relative to parent height */
-    width: 60%;
-    height: 60%;
+    max-width: 60%;   /* relative to parent width */
+    max-height: 60%;  /* relative to parent height */
+    width: auto;
+    height: auto;
     object-fit: contain;
 }
 
