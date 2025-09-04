@@ -298,15 +298,17 @@ footer h3 {
     background-color:white;
 }
 .program-GWC a {
-    background-color:white;
+    background-color: #fff;
     border: 1.5px solid gray;
     border-radius: 0.5rem;
-    height: 200px;
-    width: 390px;
-    margin: 10px;
+    width: clamp(260px, 92vw, 390px);
+    aspect-ration: 2/1;
+    margin: 10px auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 
 .our-programs {
@@ -325,11 +327,11 @@ footer h3 {
 }
 
 .program-GWC img {
-    max-width: 60%;   /* relative to parent width */
-    max-height: 60%;  /* relative to parent height */
+    max-width: 100%;   /* relative to parent width */
+    max-height: 100%;  /* relative to parent height */
+    width: 60%;
+    height: 60%;
     object-fit: contain;
-    height: auto;
-    width: auto;
 }
 
 
