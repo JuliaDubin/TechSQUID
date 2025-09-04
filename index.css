@@ -125,7 +125,7 @@ nav > div {
 /* ===== Hamburger button (mobile only) ====== */
 
 .hamburger {
-    font-size: 2.5rem;
+    font-size: 2rem;
     background: none;
     border: none;
     color: var(--apex-color);
