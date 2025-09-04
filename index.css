@@ -308,6 +308,7 @@ footer h3 {
     width: clamp(260px, 92vw, 390px);
     margin: 10px auto;
     display: flex;
+    height: 200px;
     justify-content: center;
     align-items: center;
     overflow: hidden;
