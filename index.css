@@ -74,7 +74,7 @@ main {
 
 nav {
     width: 100%;
-    padding-inline: 16px;
+    padding-inline: 0px;
 }
 
 .nav-inner {
