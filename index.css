@@ -306,7 +306,6 @@ footer h3 {
     border: 1.5px solid gray;
     border-radius: 0.5rem;
     width: clamp(260px, 92vw, 390px);
-    aspect-ration: 2/1;
     margin: 10px auto;
     display: flex;
     justify-content: center;
