@@ -297,6 +297,10 @@ footer h3 {
     flex-direction: column;
     background-color:white;
 }
+
+.program-GWC {
+    height: 200px;
+}
 .program-GWC a {
     background-color: #fff;
     border: 1.5px solid gray;
