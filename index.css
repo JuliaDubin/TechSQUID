@@ -292,7 +292,7 @@ footer h3 {
 .options {
     display: flex;
     justify-content: space-evenly;
-    height: 500px;
+    height: 600px;
     align-items: center;
     flex-direction: column;
     background-color:white;
