@@ -16,8 +16,13 @@
     --ink-blue: #5D4E64;
 }
 
+html {
+    color-scheme: light; 
+}
+
 html, body {
     height: 100%;
+    background: #ffffff; color: #363636;
 }
   
 /* ===== MOBILE FIRST =====*/
