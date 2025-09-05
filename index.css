@@ -160,9 +160,20 @@ img {
 .vision-title { 
     font-size: clamp(3rem, 6vw, 3rem); 
     line-height: 1.2; 
-    text-align: center;
-    margin: 25px 0 10px 0;
+    text-align: left;
+    margin: 25px auto 10px auto;
     color: var(--ink-blue);
+    display: inline-block;
+}
+
+.vision-title > span {
+    display: block;            /* each line on its own row */
+}
+
+/* Optional smoothing; helps Roboto render consistently */
+.vision-title {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: geometricPrecision;
 }
 
 .vision-description {
