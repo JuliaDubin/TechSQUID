@@ -570,6 +570,10 @@ footer h3 {
 @media (min-width: 1024px) {
     .hamburger { display: none; }
 
+    nav {
+        padding: 0 20px;
+    }
+
     .nav-inner {
         max-width: 1300px;   
         margin: 0 auto;     
