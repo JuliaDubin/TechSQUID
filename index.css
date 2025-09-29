@@ -627,6 +627,10 @@ footer h3 {
         justify-content: center;
     }
 
+    .vision-title {
+        align-items: flex-start;
+    }
+
     .front-image {
         display: flex;
         flex: 2;
